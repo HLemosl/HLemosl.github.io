@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+}
+
+#home {
+    background: url("images/back.png");
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10% 20px;
+}
+
+#home img {
+    width: 150px;
+    padding-left: 9px;
+}
+
+.text-apresentation h1 {
+    font-family: 'Grandstander', cursive;
+    color: darkcyan;
+}
+
+.text-apresentation p {
+    font-family: 'Grandstander';
+}
+
+.project {
+    padding: 0px 20px 20px;
+    font-family: 'Grandstander';
+    font-style: normal;
+}
+
+#title {
+    font-family: 'Grandstander';
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+    
+    padding-top: 10px;
+}
+
+#title img {
+    padding-right: 10px;
+}
+
+.project > img {
+    width: 400px;
+    border-radius: 9px;
+    border: 10px solid #F20530;
+}
+
+.ods {
+    background: #d3ebeeed;
+    padding: 0px 20px 30px;
+    font-family: 'Grandstander';
+}
+
+#video {
+    width: 440px;
+}
+
+.ods-4 {
+    background: rgb(236, 206, 212);
+    padding: 0px 20px 30px;
+    font-family: 'Grandstander';
+}
