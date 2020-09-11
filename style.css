@@ -5,12 +5,10 @@ html, body {
 #home {
     background: url("images/back.png");
     height: 100%;
+    padding: 15% 20px;
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
-    padding: 10% 20px;
 }
 
 #home img {
@@ -18,54 +16,93 @@ html, body {
     padding-left: 9px;
 }
 
-.text-apresentation h1 {
+.apresentation h1 {
     font-family: 'Grandstander', cursive;
     color: darkcyan;
 }
 
-.text-apresentation p {
+.apresentation p {
     font-family: 'Grandstander';
 }
 
 .project {
+    background: rgb(241, 241, 164);
     padding: 0px 20px 20px;
-    font-family: 'Grandstander';
-    font-style: normal;
 }
 
 #title {
+    padding-top: 20px;
     font-family: 'Grandstander';
-
+    
     display: flex;
     align-items: center;
-    justify-items: center;
-
-    
-    padding-top: 10px;
 }
 
 #title img {
+    width: 50px;
+    height: 50px;
     padding-right: 10px;
 }
 
-.project > img {
+#information {
+    font-family: 'Grandstander';
+}
+
+img.project-image {
     width: 400px;
-    border-radius: 9px;
-    border: 10px solid #F20530;
+    border-radius: 20px;
+    border: 10px solid #0BD904 ;
 }
 
 .ods {
     background: #d3ebeeed;
-    padding: 0px 20px 30px;
-    font-family: 'Grandstander';
-}
-
-#video {
-    width: 440px;
+    padding: 0px 20px 20px;
 }
 
 .ods-4 {
     background: rgb(236, 206, 212);
     padding: 0px 20px 30px;
-    font-family: 'Grandstander';
+}
+
+#video {
+    width: 420px;
+    border-radius: 20px;
+}
+
+.ods-onu {
+    border: 10px solid #F2E205;
+}
+
+.ods4 {
+    border: 10px solid #05C7F2;
+}
+
+.brazil {
+    background: rgb(184, 240, 184);
+    padding: 0px 20px 30px;
+}
+
+img.brazil-images {
+    border-radius: 20px;
+    border: 10px solid #da9f32;
+}
+
+#kids {
+    width: 200px;
+    border-radius: 20%;
+    border: 8px solid #da9f32;
+}
+
+#figure {
+    width: 430px;
+}
+
+.contributions {
+    background: #fad99e;
+    padding: 0px 20px 30px;
+}
+
+.contribuir {
+    border-radius: 20%;
+    border: 10px solid #F20530;
 }
