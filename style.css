@@ -1,41 +1,19 @@
 html, body {
     margin: 0;
-}
-
-#home {
-    background: url("images/back.png");
-    height: 100%;
-    padding: 15% 20px;
-
-    display: flex;
-    align-items: center;
-}
-
-#home img {
-    width: 150px;
-    padding-left: 9px;
-}
-
-.apresentation h1 {
-    font-family: 'Grandstander', cursive;
-    color: darkcyan;
-}
-
-.apresentation p {
-    font-family: 'Grandstander';
-}
-
-.project {
-    background: rgb(241, 241, 164);
-    padding: 0px 20px 20px;
+    background: #eeeff2;
 }
 
 #title {
-    padding-top: 20px;
-    font-family: 'Grandstander';
-    
+    border-radius: 20px;
+    padding: 5px 10px;
+
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    font-family: 'Grandstander';
+    
+    color: #4e4c4d;
 }
 
 #title img {
@@ -44,69 +22,275 @@ html, body {
     padding-right: 10px;
 }
 
+.collums {
+    padding: 20px 20px;
+}
+
+#photo-details {
+    margin: 0;
+    font-size: 0.8rem;
+    font-family: initial;
+}
+
 #information {
     font-family: 'Grandstander';
-}
-
-img.project-image {
-    width: 400px;
-    border-radius: 20px;
-    border: 10px solid #0BD904 ;
-}
-
-.ods {
-    background: #d3ebeeed;
-    padding: 0px 20px 20px;
-}
-
-.ods-4 {
-    background: rgb(236, 206, 212);
-    padding: 0px 20px 30px;
+    text-align: justify;
 }
 
 #video {
-    width: 420px;
     border-radius: 20px;
 }
 
-.ods-onu {
+section {
+    float: left;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 90%;
+}
+
+@media (min-width: 600px) {
+    .coluna {
+        width: 40%;
+        padding: 2% 5%;
+    }
+
+    #project #information {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #ods-4 #information {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #first {
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+}
+
+/* HOME */
+#home {
+    background: url("images/last-background.png");
+    height: 100%;
+    text-align: center;
+    padding: 10% 5%;
+    background-size: cover;
+}
+
+#home img {
+    width: 350px;
+    padding-left: 9px;
+}
+
+#home h1 {
+    margin: 0;
+    font-family: 'Grandstander', cursive;
+    color: darkcyan;
+}
+
+#home p {
+    font-family: 'Grandstander';
+}
+
+/* PROJECT */
+.topic-1 {
+    background: #e9e995;
+    border: 5px solid #F2E205;
+}
+
+img.project-image {
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 20px;
     border: 10px solid #F2E205;
 }
 
-.ods4 {
+/* ODS */
+#ods {
+    background: #c8c5c7;
+}
+
+.topic-2 {
+    background: #a6dbe2ed;
+    border: 5px solid #05C7F2;
+}
+
+.ods-onu {
     border: 10px solid #05C7F2;
 }
 
-.brazil {
-    background: rgb(184, 240, 184);
-    padding: 0px 20px 30px;
+/* ODS 4 */
+.topic-3 {
+    background: #eeb1bd;
+    border: 5px solid #F20530
 }
 
-img.brazil-images {
-    border-radius: 20px;
-    border: 10px solid #da9f32;
+.ods4 {
+    border: 10px solid #F20530;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BRAZIL */
+#brazil {
+    background: #c8c5c7;
+}
+
+.topic-4 {
+    background: #b8f0b8;
+    border: 5px solid #0BD904;
 }
 
 #kids {
     width: 200px;
     border-radius: 20%;
-    border: 8px solid #da9f32;
+    border: 8px solid #0BD904;
+
+    display: inline;
+    justify-content: space-between;
 }
 
-#figure {
-    width: 430px;
+img.brazil-images {
+    width: 90%;
+    border-radius: 20px;
+    border: 10px solid #0BD904;
 }
 
-.contributions {
+.pack {
+    text-align: center;
+}
+
+.pack img {
+    width: 150px;
+}
+
+@media (max-width: 600px) {
+    .pack {
+        float: left;
+        display: flex;
+    }
+
+    .pack img {
+        width: 200px;
+        border-radius: 20px;
+        border: 10px solid #0BD904;
+    }
+    
+    #first {
+        padding-right: 3%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTRIBUTIONS */
+.topic-5 {
     background: #fad99e;
-    padding: 0px 20px 30px;
+    border: 5px solid #da9f32;
 }
 
 .contribuir {
     border-radius: 20%;
-    border: 10px solid #F20530;
+    border: 10px solid #da9f32;
 }
 
-@media (max-width: 500px) {
+.topics {
+    float: left;
+    padding: 20px 20px;
+    position: relative;
+
+    background: #fad99e;
+    border-radius: 20px;
+    border: 5px solid #da9f32;
+    margin: 3px;
+}
+
+.topics img {
+    border-radius: 25%;
+    border: 5px solid #da9f32;
     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SUGGESTION */
+.suggestion {
+    margin: 30px 0;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END-LINE */
+.end-line {
+    background: #c8c5c7;
 }
