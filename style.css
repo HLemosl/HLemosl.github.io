@@ -184,16 +184,6 @@ img.project-image {
     border: 10px solid #F20530;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* BRAZIL */
 #brazil {
     background: #c8c5c7;
@@ -210,17 +200,6 @@ img.brazil-images {
     border: 10px solid #0BD904;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* CONTRIBUTIONS */
 .topic-5 {
     background: #fad99e;
@@ -233,23 +212,31 @@ img.brazil-images {
 }
 
 .topics {
-    float: left;
+    /* float: left; */
     padding: 20px 20px;
     position: relative;
+    display: flex;
 
     background: #fad99e;
     border-radius: 20px;
     border: 5px solid #da9f32;
-    margin: 3px;
+    margin: 10px;
 }
 
 .topics img {
     border-radius: 25%;
     border: 5px solid #da9f32;
+
+    width: 130px;
+    height: 130px;
     
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.links {
+    margin-left: 30px;
 }
 
 /* SUGGESTION */
