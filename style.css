@@ -298,7 +298,6 @@ img.brazil-images {
     header li {
         font-size: 13px;
         margin-top: 3.5%;
-        /* visibility: hidden; */
     }
 
     .topics img {
@@ -309,5 +308,33 @@ img.brazil-images {
     .links {
         margin-left: 15px;
         font-size: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    header li {
+        font-size: 10px;
+        margin-top: 5%;
+    }
+
+    #home {
+        padding-top: 20%;
+    }
+}
+
+@media (max-width: 335px) {
+    header li {
+        font-size: 8px;
+        margin-top: 8%;
+    }
+
+    #home {
+        padding-top: 23%;
+    }
+}
+
+@media (max-width: 294px) {
+    header {
+        visibility: hidden;
     }
 }
