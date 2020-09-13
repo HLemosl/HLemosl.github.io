@@ -66,6 +66,18 @@ li.m-contributions:hover {
     border: 2px solid #da9f32;    
 }
 
+#menu a:link {
+    text-decoration: none;
+}
+
+#menu a {
+    color: white;
+}
+
+#menu a:hover {
+    color: black;
+}
+
 #title {
     border-radius: 20px;
     padding: 5px 10px;
@@ -268,6 +280,9 @@ img.brazil-images {
 }
 
 @media (max-width: 600px) {
+    #home {
+        padding-top: 15%;
+    }
     #home img {
         width: 40%;
     }
@@ -280,8 +295,10 @@ img.brazil-images {
         font-size: 80%;
     }
 
-    header {
-        visibility: hidden;
+    header li {
+        font-size: 13px;
+        margin-top: 3.5%;
+        /* visibility: hidden; */
     }
 
     .topics img {
