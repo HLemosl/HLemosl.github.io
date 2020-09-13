@@ -1,6 +1,69 @@
 html, body {
     margin: 0;
+    padding: 0;
     background: #eeeff2;
+}
+
+header {
+    background-color: #949092;
+    color: #000000;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+header img {
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    margin-left: 5%;
+}
+
+#menu {
+    float: right;
+    margin-right: 3%;
+    list-style: none;
+    margin-top: 0;
+}
+
+li {
+    float: left;
+    margin: 3% 4px 0;
+    padding: 5px 3px 5px 0;
+    border-radius: 8px;
+    font-family: 'Grandstander';
+    font-size: 15px;
+    color: #ffffff;
+}
+
+li:hover {
+    padding: 0.2rem 0.8rem;
+}
+
+li.m-project:hover {
+    background-color: #e9e995;
+    border: 2px solid #F2E205;    
+}
+
+li.m-ods:hover {
+    background-color: #a6dbe2ed;
+    border: 2px solid #05C7F2;
+}
+
+li.m-ods4:hover {
+    background-color: #eeb1bd;
+    border: 2px solid #F20530;
+}
+
+li.m-brazil:hover {
+    background-color: #b8f0b8;
+    border: 2px solid #0BD904;
+}
+
+li.m-contributions:hover {
+    background-color: #fad99e;
+    border: 2px solid #da9f32;    
 }
 
 #title {
@@ -52,28 +115,12 @@ section {
     width: 90%;
 }
 
-@media (min-width: 600px) {
-    .coluna {
-        width: 40%;
-        padding: 2% 5%;
-    }
-
-    #project #information {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #ods-4 #information {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #first {
-        margin-bottom: 10px;
-        margin-top: 50px;
-    }
+footer {
+    background-color: #949092;
+    float: left;
+    width: 100%;
+    height: 30%;
+    color: white;
 }
 
 /* HOME */
@@ -137,24 +184,6 @@ img.project-image {
     border: 10px solid #F20530;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* BRAZIL */
 #brazil {
     background: #c8c5c7;
@@ -166,12 +195,9 @@ img.project-image {
 }
 
 #kids {
-    width: 200px;
+    width: 178px;
     border-radius: 20%;
     border: 8px solid #0BD904;
-
-    display: inline;
-    justify-content: space-between;
 }
 
 img.brazil-images {
@@ -187,50 +213,6 @@ img.brazil-images {
 .pack img {
     width: 150px;
 }
-
-@media (max-width: 600px) {
-    .pack {
-        float: left;
-        display: flex;
-    }
-
-    .pack img {
-        width: 200px;
-        border-radius: 20px;
-        border: 10px solid #0BD904;
-    }
-    
-    #first {
-        padding-right: 3%;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* CONTRIBUTIONS */
 .topic-5 {
@@ -269,28 +251,59 @@ img.brazil-images {
     padding-top: 20px;
 }
 
+@media (min-width: 600px) {
+    .coluna {
+        width: 40%;
+        padding: 2% 5%;
+    }
 
+    #project #information {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
+    #ods-4 #information {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
+    #first {
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+}
 
+@media (max-width: 600px) {
+    .pack {
+        float: left;
+        display: flex;
+    }
 
+    .pack img {
+        border-radius: 20px;
+        border: 10px solid #0BD904;
+    }
+    
+    #first {
+        padding-right: 3%;
+    }
+    
+    #home img {
+        width: 40%;
+    }
 
+    #home h1 {
+        font-size: 200%;
+    }
 
+    #home p {
+        font-size: 80%;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* END-LINE */
-.end-line {
-    background: #c8c5c7;
+    header {
+        visibility: hidden;
+    }
+    
 }
