@@ -125,7 +125,7 @@ footer {
 
 /* HOME */
 #home {
-    background: url("images/last-background.png");
+    background: url("images/background.png");
     height: 100%;
     text-align: center;
     padding: 10% 5%;
@@ -198,6 +198,10 @@ img.brazil-images {
     width: 90%;
     border-radius: 20px;
     border: 10px solid #0BD904;
+}
+
+.short-photo {
+    margin-bottom: 30px;
 }
 
 /* CONTRIBUTIONS */
@@ -287,6 +291,6 @@ img.brazil-images {
 
     .links {
         margin-left: 15px;
-        font-size: 10px;
+        font-size: 15px;
     }
 }
