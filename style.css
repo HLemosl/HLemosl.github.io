@@ -214,7 +214,6 @@ img.brazil-images {
 .topics {
     float: left;
     padding: 15px 10px;
-    /* position: relative; */
     display: flex;
 
     background: #fad99e;
@@ -237,7 +236,6 @@ img.brazil-images {
 
 .links {
     margin-left: 30px;
-    /* margin-right: 60px; */
 }
 
 /* SUGGESTION */
@@ -283,8 +281,8 @@ img.brazil-images {
     }
 
     .topics img {
-        width: 60px;
-        height: 60px;
+        width: 90px;
+        height: 90px;
     }
 
     .links {
